@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "361530757967",
+    "firebase_url": "https://astrel-2e2a5.firebaseio.com",
+    "project_id": "astrel-2e2a5",
+    "storage_bucket": "astrel-2e2a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361530757967:android:63c9199b7510d3ce",
+        "android_client_info": {
+          "package_name": "com.example.chiao.astrel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361530757967-rlqr9jstp6g3277f4chijsn5jrikgqj2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chiao.astrel",
+            "certificate_hash": "ae5b3cf95cf5ef2a3b04dace3293ba19d3caf612"
+          }
+        },
+        {
+          "client_id": "361530757967-pqnd2ane044m58f4phoreodp4hnh5bj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGTU2XKkE0AzhYn1hztk8TzcOREtTY0Oo"
+        },
+        {
+          "current_key": "AIzaSyCYfLyIQ8f6m6l8Skyb3WpclG2cc1-kCec"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361530757967-pqnd2ane044m58f4phoreodp4hnh5bj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

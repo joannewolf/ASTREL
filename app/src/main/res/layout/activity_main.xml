@@ -11,7 +11,51 @@
     tools:context="com.example.chiao.astrel.MainActivity">
 
     <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/vibrate_button"
+        android:text="vibration"
+        android:layout_below="@+id/text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <Button
+        android:id="@+id/audio_button"
+        android:text="play audio"
+        android:layout_below="@+id/vibrate_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <Button
+        android:id="@+id/notify_button"
+        android:text="notify"
+        android:layout_below="@+id/audio_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:text="stop"
+        android:layout_below="@+id/notify_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <Button
+        android:id="@+id/SMS_button"
+        android:text="SMS"
+        android:layout_below="@+id/stop_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <TextView
+        android:id="@+id/notification_message"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/SMS_button"
+        android:text=""
+        android:layout_height="wrap_content"
+        android:textSize="32sp"/>
 </RelativeLayout>
